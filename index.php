@@ -16,7 +16,7 @@
                 <!-- starting php code -->
                 <?php
                     //first we leave this input field blank
-                    $recipient = "bialakayode@gmail.com";
+                    $recipient = "";
                     //if user click the send button
                     if(isset($_POST['send'])){
                         //access user entered data
