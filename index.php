@@ -53,7 +53,7 @@
                        }
                     }
                 ?> <!-- end of php code -->
-                <form action="mail.php" method="POST">
+                <form action="index.php" method="POST">
                     <div class="form-group">
                         <input class="form-control" name="email" type="email" placeholder="Recipients" value="<?php echo $recipient ?>">
                     </div>
